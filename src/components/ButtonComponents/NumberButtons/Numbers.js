@@ -10,7 +10,7 @@ const Numbers = () => {
   const [numberState] = useState(numbers)
 
   return (
-    <div>
+    <div className="grids">
       {/* this.props or props  name of array to iterate   .map  ((nameofvar) => {return <Numberbutton />}) */}
   {/* {numberState.map((number) => {return <NumberButton buttonNum = {number} />})} */}
   {numberState.map((number) => {return <NumberButton buttonNum = {number}/>})}
